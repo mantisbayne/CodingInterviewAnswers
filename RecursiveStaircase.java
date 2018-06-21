@@ -6,9 +6,9 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class RecursiveStaircase {
   // https://www.hackerrank.com/challenges/ctci-recursive-staircase/problem
-  
+
     static int stepPerms(int steps) {
         if (steps < 0)
             return 0;
